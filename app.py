@@ -60,8 +60,3 @@ def list():
     list1 = Todo.query.all()
     return render_template('list.html', todo_list=list1)
 
-if __name__ == '__main__':
- 
-    # run() method of Flask class runs the application
-    # on the local development server.
-    app.run()
